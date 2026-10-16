@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df54e43d46429d644885f5c1630a9a62, type: 3}
+  m_Name: ArmoredEnemyFactory
+  m_EditorClassIdentifier: Assembly-CSharp::BasicEnemyFactory
+  enemyPrefab: {fileID: 5604832200296989039, guid: b2a2e857ceb3da046baac90fc3342f14, type: 3}
+  enemyName: Armored Enemy
+  baseMoveSpeed: 0.5
+  maxHealth: 200
+  defaultCapacity: 4
+  maxPoolSize: 20
